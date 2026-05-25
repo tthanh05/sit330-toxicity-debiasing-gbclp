@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+wilds_data/
+data/
+datasets/
+*.tar.gz
+*.zip
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Raw generated outputs with text examples
+outputs_hd_toxicity_debiasing/
+error_analysis_false_positives_*.csv
+error_analysis_false_negatives_*.csv
+counterfactual_sensitivity_examples_*.csv
+
+# System
+.DS_Store
+Thumbs.db
